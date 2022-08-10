@@ -29,4 +29,7 @@ open `localhost:8080` in your browser.
 
 ### Step 7
 
-Push the built docker image to a container registry. For this project we will use docker hub. So we will use `docker push <dockerhub-username>/<project-name>:<version>`
+Push the built docker image to a container registry. For this project we will use docker hub. `docker push <dockerhub-username>/<project-name>:<version>`
+
+## To try this project locally pull the docker image from [Docker-Hub](https://hub.docker.com/repository/docker/atharvashinde/demodocker)
+`docker push atharvashinde/demodocker`
